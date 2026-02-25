@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa História ❤️</title>
+    <meta property="og:title" content="10 Meses de Namoro">
+    <meta property="og:description" content="Uma pequena homenagem para nós dois.">
+    
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            text-align: center; 
+            padding: 50px 20px; 
+            background-color: #fff0f5; 
+            transition: background 0.3s;
+        }
+        #container { max-width: 500px; margin: auto; }
+        h1 { color: #ff69b4; font-size: 28px; }
+        p { color: #666; font-size: 18px; }
+        button { 
+            padding: 20px 40px; 
+            font-size: 20px; 
+            cursor: pointer; 
+            border-radius: 50px; 
+            border: none; 
+            background: #ff69b4; 
+            color: white; 
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(255, 105, 180, 0.4);
+            margin-top: 20px;
+        }
+        #zoacao { display: none; }
+        .texto-zoeira { 
+            font-size: 3rem; 
+            font-weight: 900; 
+            color: #000; 
+            text-transform: uppercase;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div id="inicio">
+            <h1>10 Meses Juntos... ❤️</h1>
+            <p>Não sabia como dizer isso, então fiz esse site para celebrar nosso tempo juntos.</p>
+            <button onclick="revelar()">Ver Nossa História</button>
+        </div>
+
+        <div id="zoacao">
+            <p class="texto-zoeira">Kkkkkkkkkkk seu viadinho</p>
+            <img src="https://media.tenor.com/On7tT9C_hPUAAAAM/pica-pau-pica-pau-rindo.gif" width="100%">
+        </div>
+    </div>
+
+    <script>
+        function revelar() {
+            document.getElementById('inicio').style.display = 'none';
+            document.getElementById('zoacao').style.display = 'block';
+            document.body.style.backgroundColor = '#00FF00'; // Verde bem chamativo
+            
+            // Toca um alerta se você quiser ser mais chato ainda
+            setTimeout(() => {
+                alert("PEGADINHA! kkkkkkk");
+            }, 500);
+        }
+    </script>
+</body>
+  </html>
+  
